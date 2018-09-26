@@ -83,7 +83,8 @@
     color: var(--main-bg-color);
     cursor: pointer;
     border: 1px solid var(--main-bg-color);
-    align-self: center;
+    -ms-grid-row-align: center;
+        align-self: center;
     padding: 0 25px;
 }
 

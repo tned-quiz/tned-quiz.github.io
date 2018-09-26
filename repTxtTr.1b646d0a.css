@@ -1,6 +1,7 @@
 .txt_tr_rep{
   align-items: stretch;
-  justify-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
 }
 .txt_tr_rep select {
   width: 8rem;
@@ -8,11 +9,7 @@
   font-size: 1rem;
     padding:.1rem;
     margin: 0;
-    -webkit-border-radius:.4rem;
-    -moz-border-radius:.4rem;
     border-radius:.4rem;
-    -webkit-box-shadow: 0 2px 2px var(--main-ft-op-color), 0 -1px var(--secondary-color) inset;
-    -moz-box-shadow: 0 2px 2px var(--main-ft-op-color), 0 -1px var(--secondary-color) inset;
     box-shadow: 0 2px 2px var(--main-ft-op-color), 0 -1px var(--secondary-color) inset;
     background-color: var(--main-bg-color);
     color: var(--main-ft-color);
@@ -53,8 +50,6 @@
     font-size: 1rem;
     color: var(--main-ft-color);
     -webkit-transform:rotate(90deg);
-    -moz-transform:rotate(90deg);
-    -ms-transform:rotate(90deg);
     transform:rotate(90deg);
   position:absolute;
     right:.7rem;

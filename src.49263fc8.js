@@ -51,7 +51,7 @@ parcelRequire = (function(e, r, n, t) {
   return u;
 })(
   {
-    18: [
+    60: [
       function(require, module, exports) {
         "use strict";
         Object.defineProperty(exports, "__esModule", { value: !0 });
@@ -1255,7 +1255,7 @@ parcelRequire = (function(e, r, n, t) {
               categorie: "culture",
               intitules:
                 "En quelle année, le non port de la ceinture de sécurité est-il devenu une infraction au code de la route ?",
-              assets: { type: "img", src: "Question59.jpg" },
+              assets: { type: "img", src: "Question59.png" },
               reponses: [
                 { label: "1994", value: !1 },
                 { label: "1998", value: !1 },
@@ -1368,7 +1368,7 @@ parcelRequire = (function(e, r, n, t) {
       },
       {}
     ],
-    40: [
+    73: [
       function(require, module, exports) {
         "use strict";
         function e(e, t, n, i, s) {
@@ -1390,7 +1390,7 @@ parcelRequire = (function(e, r, n, t) {
       },
       {}
     ],
-    77: [
+    74: [
       function(require, module, exports) {
         "use strict";
         function e(e, t) {
@@ -1404,7 +1404,7 @@ parcelRequire = (function(e, r, n, t) {
       },
       {}
     ],
-    78: [
+    75: [
       function(require, module, exports) {
         "use strict";
         function e(e, s, t) {
@@ -1435,7 +1435,7 @@ parcelRequire = (function(e, r, n, t) {
       },
       {}
     ],
-    92: [
+    58: [
       function(require, module, exports) {
         "use strict";
         function r(r, e) {
@@ -1470,7 +1470,7 @@ parcelRequire = (function(e, r, n, t) {
       },
       {}
     ],
-    93: [
+    59: [
       function(require, module, exports) {
         "use strict";
         function e(e, r) {
@@ -1524,7 +1524,7 @@ parcelRequire = (function(e, r, n, t) {
       },
       {}
     ],
-    94: [
+    60: [
       function(require, module, exports) {
         "use strict";
         function e(e, r, o) {
@@ -1577,7 +1577,7 @@ parcelRequire = (function(e, r, n, t) {
       },
       {}
     ],
-    83: [
+    51: [
       function(require, module, exports) {
         "use strict";
         Object.defineProperty(exports, "__esModule", { value: !0 }),
@@ -1638,12 +1638,12 @@ parcelRequire = (function(e, r, n, t) {
         exports.repQr = r;
       },
       {
-        "../../viewStyle/imgCheck": 92,
-        "../../viewStyle/labelCheck": 93,
-        "../../viewStyle/labelCheckTypeC": 94
+        "../../viewStyle/imgCheck": 58,
+        "../../viewStyle/labelCheck": 59,
+        "../../viewStyle/labelCheckTypeC": 60
       }
     ],
-    36: [
+    55: [
       function(require, module, exports) {
         "use strict";
         function e(e, t, n) {
@@ -1659,7 +1659,7 @@ parcelRequire = (function(e, r, n, t) {
       },
       {}
     ],
-    84: [
+    49: [
       function(require, module, exports) {
         "use strict";
         Object.defineProperty(exports, "__esModule", { value: !0 }),
@@ -1684,9 +1684,9 @@ parcelRequire = (function(e, r, n, t) {
         }
         exports.repCurseur = r;
       },
-      { "../../viewStyle/cursorValue": 36 }
+      { "../../viewStyle/cursorValue": 55 }
     ],
-    95: [
+    56: [
       function(require, module, exports) {
         "use strict";
         function e(e, t, r, a) {
@@ -1799,7 +1799,7 @@ parcelRequire = (function(e, r, n, t) {
       },
       {}
     ],
-    85: [
+    50: [
       function(require, module, exports) {
         "use strict";
         Object.defineProperty(exports, "__esModule", { value: !0 }),
@@ -1834,9 +1834,9 @@ parcelRequire = (function(e, r, n, t) {
         }
         exports.repOrdLst = r;
       },
-      { "../../viewStyle/dragDropOrdLst": 95 }
+      { "../../viewStyle/dragDropOrdLst": 56 }
     ],
-    86: [
+    51: [
       function(require, module, exports) {
         "use strict";
         function e(e, t, n, r) {
@@ -1871,7 +1871,7 @@ parcelRequire = (function(e, r, n, t) {
       },
       {}
     ],
-    79: [
+    49: [
       function(require, module, exports) {
         "use strict";
         Object.defineProperty(exports, "__esModule", { value: !0 }),
@@ -1908,13 +1908,13 @@ parcelRequire = (function(e, r, n, t) {
         exports.reponsesQuiz = s;
       },
       {
-        "./repGameplay/repQr": 83,
-        "./repGameplay/repCurseur": 84,
-        "./repGameplay/repOrdLst": 85,
-        "./repGameplay/repTxtTr": 86
+        "./repGameplay/repQr": 51,
+        "./repGameplay/repCurseur": 49,
+        "./repGameplay/repOrdLst": 50,
+        "./repGameplay/repTxtTr": 51
       }
     ],
-    34: [
+    36: [
       function(require, module, exports) {
         "use strict";
         Object.defineProperty(exports, "__esModule", { value: !0 }),
@@ -1956,13 +1956,13 @@ parcelRequire = (function(e, r, n, t) {
         exports.loadQ = a;
       },
       {
-        "./components/headBoxQuiz": 40,
-        "./components/intituleQuiz": 77,
-        "./components/assetQuiz": 78,
-        "./components/reponsesQuiz": 79
+        "./components/headBoxQuiz": 73,
+        "./components/intituleQuiz": 74,
+        "./components/assetQuiz": 75,
+        "./components/reponsesQuiz": 49
       }
     ],
-    23: [
+    61: [
       function(require, module, exports) {
         "use strict";
         function t(t) {
@@ -1983,7 +1983,7 @@ parcelRequire = (function(e, r, n, t) {
       },
       {}
     ],
-    21: [
+    59: [
       function(require, module, exports) {
         "use strict";
         Object.defineProperty(exports, "__esModule", { value: !0 }),
@@ -2203,9 +2203,9 @@ parcelRequire = (function(e, r, n, t) {
         }
         exports.loadResult = i;
       },
-      { "./components/startTimer": 23 }
+      { "./components/startTimer": 61 }
     ],
-    14: [
+    28: [
       function(require, module, exports) {
         "use strict";
         var e = (function() {
@@ -2349,16 +2349,16 @@ parcelRequire = (function(e, r, n, t) {
         (0, s.startCountdown)(f), w(n.demoCorpus);
       },
       {
-        "./fixtures/q_demo_export": 18,
+        "./fixtures/q_demo_export": 60,
         "./qCorpusAleat": 57,
-        "./loadQ": 34,
-        "./loadResult": 21,
-        "./components/startTimer": 23
+        "./loadQ": 36,
+        "./loadResult": 59,
+        "./components/startTimer": 61
       }
     ]
   },
   {},
-  [14],
+  [28],
   null
 );
-//# sourceMappingURL=src.1a4fe222.map
+//# sourceMappingURL=src.49263fc8.map

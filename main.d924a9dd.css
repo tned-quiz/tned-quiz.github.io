@@ -11,8 +11,10 @@
   position: absolute;
 }
 .main_quiz form{
+  display: -ms-grid;
   display: grid;
-  grid-template-rows: 2fr 6fr 1fr;
+  -ms-grid-rows: 2fr 6fr 1fr;
+      grid-template-rows: 2fr 6fr 1fr;
 }
 
 /* ======= HEAD BOX QUIZ ======= */

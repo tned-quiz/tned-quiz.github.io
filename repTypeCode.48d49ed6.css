@@ -1,6 +1,6 @@
 /* ======= CONTENT BOX QUIZ ======= */
 .content_box_quiz.typeCode{
-  grid-template-areas:
+      grid-template-areas:
     'assets intitules'
     'assets reponses'
     'assets intitules'
@@ -10,12 +10,18 @@
   align-items: stretch;
 }
 .content_box_quiz.typeCode .assets{
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 4;
   grid-row: 1 / 5;
 }
 .content_box_quiz.typeCode .intitules:nth-child(4){
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
   grid-row: 3 / 4;
 }
 
 .content_box_quiz.typeCode .reponses:nth-child(5){
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
   grid-row: 4 / 5;
 }

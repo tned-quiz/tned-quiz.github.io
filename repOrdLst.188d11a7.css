@@ -7,8 +7,10 @@
 }
 .reponses ol{
   font-weight: bold;
+  display: -ms-grid;
   display: grid;
-  grid-template-rows: repeat(auto-fit, minmax(2.2rem, 1fr));
+  -ms-grid-rows: (minmax(2.2rem, 1fr))[auto-fit];
+      grid-template-rows: repeat(auto-fit, minmax(2.2rem, 1fr));
   justify-content: stretch;
   align-content: space-between;
   justify-items: stretch;
@@ -58,6 +60,7 @@
   text-transform: uppercase;
 }
 .reponses .draggable_span{
+  cursor: -webkit-grab;
   cursor: grab;
   display: flex;
   justify-content: flex-start;
